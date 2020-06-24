@@ -1,3 +1,6 @@
 [submodule "htdocs/auth/oidc"]
 	path = htdocs/auth/oidc
 	url = git@github.com:ssatuk/mahara-auth_oidc.git
+[submodule "htdocs/theme/ssat"]
+	path = htdocs/theme/ssat
+	url = git@github.com:ssatuk/mahara.theme.ssat.git
