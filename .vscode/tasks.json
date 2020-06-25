@@ -1,0 +1,31 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "gulp css",
+			"command": "gulp",
+			"group": "build",
+			"args": [
+				"css"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "${workspaceRoot}"
+			}
+		},
+		{
+			"label": "gulp watch",
+			"command": "gulp",
+			"group": "build",
+			"args": [
+				"watch"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "${workspaceRoot}"
+			}
+		},
+		
+	],
+	
+}
