@@ -159,6 +159,13 @@ if ($view->get('accessibleview')) {
 }
 $blocktype_js = $view->get_all_blocktype_javascript();
 $javascript = array_merge($javascript, $blocktype_js['jsfiles']);
+// BEGIN SSAT MHA-9 patch for plugin artefact/cloud
+if (class_exists('PluginArtefactCloud')) {
+    $blocktype_cloud_js = array('artefact/cloud/lib/datatables/js/jquery.dataTables.min.js',
+                                'artefact/cloud/lib/datatables/js/dataTables.bootstrap.min.js');
+    $javascript = array_merge($javascript, $blocktype_cloud_js);
+}
+// END SSAT MHA-9
 if (is_plugin_active('externalvideo', 'blocktype')) {
     $javascript = array_merge($javascript, array((is_https() ? 'https:' : 'http:') . '//cdn.embedly.com/widgets/platform.js'));
 }
