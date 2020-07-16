@@ -6,4 +6,4 @@
 	url = git@github.com:ssatuk/mahara.theme.ssat.git
 [submodule "htdocs/artefact/cloud"]
 	path = htdocs/artefact/cloud
-	url = https://github.com/povsod/mahara-artefact-cloud.git
+	url = git@github.com:ssatuk/mahara-artefact-cloud.git
