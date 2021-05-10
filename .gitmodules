@@ -1,0 +1,3 @@
+[submodule "htdocs/artefact/cloud"]
+	path = htdocs/artefact/cloud
+	url = git@github.com:ssatuk/mahara-artefact-cloud.git
