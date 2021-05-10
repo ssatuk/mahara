@@ -1,0 +1,3 @@
+[submodule "htdocs/theme/ssat"]
+	path = htdocs/theme/ssat
+	url = git@github.com:ssatuk/mahara.theme.ssat.git
